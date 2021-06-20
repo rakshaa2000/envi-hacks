@@ -13,9 +13,9 @@ export default class Routes extends Component {
             <Router history={history} basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/MedicalWaste" component={App} />
-                    <Route path="/Categorise" component={NewApp} />
-                    <Route path="/Quiz" component={QuizApp} />
+                    <Route exact path="/MedicalWaste" component={App} />
+                    <Route exact path="/Categorise" component={NewApp} />
+                    <Route exact path="/Quiz" component={QuizApp} />
                 </Switch>
             </Router>
         )
