@@ -13,10 +13,10 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="./">Home</Nav.Link>
-                    <Nav.Link href="./MedicalWaste">Test safety of disposal</Nav.Link>
-                    <Nav.Link href="./Categorise">Which bin to Dispose</Nav.Link>
-                    <Nav.Link href="./Quiz">Knowledge Check</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/MedicalWaste">Test safety of disposal</Nav.Link>
+                    <Nav.Link href="/Categorise">Which bin to Dispose</Nav.Link>
+                    <Nav.Link href="/Quiz">Knowledge Check</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
