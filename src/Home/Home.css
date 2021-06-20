@@ -1,0 +1,24 @@
+
+.logo{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.tabsbg{
+    background-color: rgb(186, 248, 135);
+    font-family: "Mali" , cursive !important;
+}
+@keyframes side-to-side {
+    from{
+        transform: translateX(-10%);
+    }
+    50%{
+        transform: translateX(10%);
+    }
+    to{
+        transform: translateX(-10%);
+    }
+}
+.heads{
+    animation: side-to-side infinite 5s ease-in-out;
+}
