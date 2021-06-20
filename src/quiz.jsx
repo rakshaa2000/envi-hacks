@@ -45,8 +45,8 @@ export default function QuizApp() {
 		{
 			questionText: 'The plastic part of syringes is recycled in some regions, but this practice is ________________ in ICRC contexts.',
 			answerOptions: [
-				{ answerText: 'Recommended', isCorrect: true },
-				{ answerText: 'Not Recommended', isCorrect: false },
+				{ answerText: 'Recommended', isCorrect: false },
+				{ answerText: 'Not Recommended', isCorrect: true },
 			],
 		},
 		{
